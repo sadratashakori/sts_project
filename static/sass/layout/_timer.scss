@@ -1,0 +1,47 @@
+.off-timer{
+    // max-width: 85vw;
+    .time-div{
+        .time-box{
+            position: relative;
+            width: 13vw;
+            height: 20vw;
+            border-radius: 10px;
+            background-color: rgb(255, 52, 52);
+            .off-top{
+                width: 200px;
+                position: absolute;
+                top: -3.5px;
+                right: -56px;
+            }
+            .number{
+                padding-top: 90px;
+                padding-right: 30px;
+                .time-number{
+                    font-weight: 700;
+                    padding: 8px 9px;
+                    border: .5px solid rgb(255, 255, 255);
+                    border-radius: 8px;
+                    // background-color: white;
+                    color: rgb(255, 255, 255);
+                }
+                .do-noghte{
+                     color:rgb(255, 255, 255);
+                 } 
+            }
+        }
+        .images{
+            img{
+                width: 200px;
+                margin-right: 15px;
+            }
+        }
+    }
+}
+.off-timer{
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+// .slid-off{
+//     width: 30vw;
+// }

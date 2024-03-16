@@ -1,0 +1,101 @@
+.banner img{
+    width: 100vw;
+}
+.baner-first .hamkari-and-aghsati img{
+    width: 41vw;
+    height: 20.5vw;
+    border-radius: 10px;
+}
+.baner-shoes{
+    .top{
+        .title{
+            font-size: 28px;
+            margin-bottom: 25px;
+            margin-top: 15px;
+        }
+        .link{
+            font-size: 16px;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 25px;
+            margin-top: 15px;
+        }
+    }
+    .botton{
+        img{
+            width: 41vw;
+            height: 20.5vw;
+            border-radius: 10px;
+        }
+    } 
+}
+.baner-four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 20vw;
+    }
+}
+
+.baner-car{
+    margin-top: 50px;
+    #car-kafposh{
+        width: 23vw;
+        height: 42.5vw;
+        border-radius: 10px;
+    }
+    .right{
+        .top{
+            gap: 45px;
+            #car-yadak{
+                width: 20vw;
+                height: 20vw;
+                border-radius: 10px;
+            }
+            #car{
+                width: 36vw;
+                height: 20vw;
+                border-radius: 10px;
+            }
+        }
+        .botton{
+            gap: 45px;
+            margin-top: 2vw;
+            #car-chair{
+                width: 36vw;
+                height: 20vw;
+                border-radius: 10px;
+            }
+            #car-oil{
+                width: 20vw;
+                height: 20vw;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+
+.computers{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .baner{
+        img{
+            width: 19vw;
+            height: 380px;
+            border-radius: 10px;
+        }
+    }
+}
+
+.two-baner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 41vw;
+        height: 20.5vw;
+        border-radius: 10px; 
+    }
+}

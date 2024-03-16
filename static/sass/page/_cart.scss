@@ -1,0 +1,18 @@
+.main-cart{
+    // background-color: rgb(245, 245, 245);
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    .cart-none{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        img{
+            margin-bottom: 20px;
+            border-radius: 50%;
+            width: 130px;
+            height: 130px;
+        }    
+    }
+}

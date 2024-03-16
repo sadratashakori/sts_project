@@ -1,0 +1,92 @@
+header{
+    box-shadow: 0 5px 10px -10px;
+    padding-bottom: 20px;
+}
+header .left .buy-in-timcheh{
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+header .top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.register-login a{
+    color: black;
+    text-decoration: none;
+}
+.space{
+    // width: .2px;
+    height: 25px;
+    border: .2px solid;
+    margin: 0 10px;
+    color: rgb(153, 153, 153);
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+header nav ul .sub-menu{
+    list-style: none;
+}
+header nav ul .sub-menu a{
+    text-decoration: none;
+    color: rgb(76, 76, 76);
+    font-size: 14px;
+    text-align: right;
+}
+nav{
+    position: relative;
+}
+.fa-angle-down{
+    font-size: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.mega-menu-ul li{
+    list-style: none;
+    display: block;
+}
+.mega-menu-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 12px;
+}
+.mega-menu{
+    display: flex;
+    // flex-direction: column;
+    gap: 50px;
+    justify-content: start;
+    align-items: flex-start;
+    width: 80vw;
+    max-width: 80vw;
+    box-shadow: 0 0 10px -5px;
+    padding: 15px;
+    border-radius: 7px;
+    position: absolute;
+    top: 50px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+    z-index: 100;
+}
+.sub-menu:hover .mega-menu{
+    top: 28px;
+    opacity: 1;
+    visibility: visible;
+    transition: all .5s;
+}
+.mega-menu .titles{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}

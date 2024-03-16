@@ -1,0 +1,110 @@
+.nav-dashbord{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    .nav-meghdar{
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .text{
+            font-size: 15px;
+            margin-top: 8px;
+        }
+    }
+    .nav-tabligh{
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        .nav-color{
+            margin-top: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 17px;
+            font-weight: 900;
+            color: white;
+            i{
+                margin-top: 8px;
+                animation: first-flash 1.5s alternate ease-in-out infinite ;
+                
+                @keyframes first-flash {
+                0%{
+                margin-right: 40px;
+                }
+                100%{
+                margin-left: 40px;
+                }
+                }
+            }
+    }
+}
+}
+
+
+
+
+
+// .nav-menu{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: flex-start;
+//     flex-wrap: wrap;
+// }
+// .nav-value img{
+//     width: 85px;
+//     height: 85px;
+//     border-radius: 5px;
+// }
+// .nav-value{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+// .nav-value .title{
+//     font-size: 16px;
+//     color: rgb(99, 99, 99);
+// }
+// .nav-color-1{
+//     width: 85px;
+//     height: 85px;
+//     border-radius: 5px;
+//     background-color: rgb(3, 3, 128);
+//     color: white;
+//     font-size: 21px;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 5px;
+//     justify-content: center;
+//     align-items: center;
+// }
+// .nav-color-2{
+//     width: 85px;
+//     height: 85px;
+//     border-radius: 5px;
+//     background-color: green;
+//     color: white;
+//     font-size: 21px;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 5px;
+//     justify-content: center;
+//     align-items: center;
+// }
+// .nav-value .fa-angle-right{
+//     animation: first-flash 1.5s alternate ease-in-out infinite ;
+// }
+// .nav-value .fa-angle-left{
+//     animation: first-flash 1.5s alternate ease-in-out infinite ;
+// }
+// @keyframes first-flash {
+//     0%{
+//         margin-right: 40px;
+//     }
+//     100%{
+//         margin-left: 40px;
+//     }
+// }

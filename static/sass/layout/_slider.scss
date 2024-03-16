@@ -1,0 +1,122 @@
+.slider{
+    margin-top: 50px;
+}
+.slider-first{
+    z-index: 2;
+}
+.swiper{
+    width: 85vw;
+    height: 19vw;
+    border-radius: 10px 10px;
+}
+.swiper-slide img{
+    width: 85vw;
+    height: 19vw;
+    border-radius: 10px 10px;
+}
+
+
+.swiper-kala{
+    height: 320px;
+}
+.kala-ha{
+    width: 250px;
+    height: 300px;
+}
+.product{
+    position: relative;
+    // height: 470px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .title{
+            font-size: 28px;
+            margin-bottom: 25px;
+            margin-top: 15px;
+        }
+        .link{
+            font-size: 16px;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 25px;
+            margin-top: 15px;
+            i{
+                margin-right: 8px;
+            }
+        }
+    }
+    .images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .botton{
+        // display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .text{
+            font-size: 13px;
+            color: gray;
+        }
+        .prices{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: flex-end;
+            // <div class="with-off">
+            //   <span class="price-off">200000</span>
+            //   <div class="darsad">20%</div>
+            //</div>
+            .with-off{
+                display: flex;
+                gap: 8px;
+                .price-off{
+                    font-size: 14px;
+                    color: gray;
+                    text-decoration: line-through;
+                }
+                .darsad{
+                    background-color: yellow;
+                    padding: 3px;
+                    color: gray;
+                    border-radius: 0 5px 5px 0;
+                }
+            }
+            .not-off{
+                display: flex;
+                gap: 8px;
+            }
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-top: 15px;
+            gap: 7px;
+            .prise-aslis{
+                font-size: 18px;
+            }
+            .toman{
+                margin-bottom: 8px;
+                font-size: 13px;
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
+}
+.baner-cooking{
+    img{
+        width: 85vw;
+        border-radius: 10px;
+        height: 15vw;
+    }
+}
